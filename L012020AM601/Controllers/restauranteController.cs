@@ -13,7 +13,7 @@ namespace L012020AM601.Controllers
 
         public restauranteController(restauranteContext restauranteContext) 
         {
-            restauranteContext = restauranteContext;
+            _restauranteContext = restauranteContext;
         }
 
         [HttpGet]
@@ -29,5 +29,7 @@ namespace L012020AM601.Controllers
 
             return Ok (listadoClientes);
         }
+
+        
     }
 }

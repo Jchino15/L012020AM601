@@ -11,7 +11,7 @@ namespace L012020AM601.Models
 
         public DbSet<clientes> clientes { get; set; }
         public DbSet<motorista> motorista { get; set; }
-        public DbSet<pedidos> ppedidos { get; set;}
+        public DbSet<pedidos> pedidos { get; set;}
         public DbSet<platos> platos { get; set; }
 
     }
